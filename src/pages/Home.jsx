@@ -146,29 +146,20 @@ const Home = () => {
           <div className="mt-20 p-6 bg-white/80 dark:bg-gray-800/80 backdrop-blur-md rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-200 dark:border-gray-700">
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="md:w-1/2">
-                <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">Featured Project</h3>
-                <h4 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">AI-Powered Task Manager</h4>
+                <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">Meuzz</h3>
+                <h4 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Meme Social Media</h4>
                 <p className="text-gray-600 dark:text-gray-300 mb-6">
-                  A revolutionary task management application that leverages machine learning to prioritize and organize your workflow intelligently.
+Meuzz is where your humor gets the recognition it deserves. Upload your best content, vote on what's actually funny, and build your rep in a community that gets it. No cap, no algorithms – just pure vibes.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-6">
                   <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 rounded-full text-sm">React</span>
                   <span className="px-3 py-1 bg-green-100 dark:bg-green-900/60 text-green-700 dark:text-green-300 rounded-full text-sm">Node.js</span>
-                  <span className="px-3 py-1 bg-purple-100 dark:bg-purple-900/60 text-purple-700 dark:text-purple-300 rounded-full text-sm">TensorFlow</span>
+                  <span className="px-3 py-1 bg-purple-100 dark:bg-purple-900/60 text-purple-700 dark:text-purple-300 rounded-full text-sm">Redux</span>
                 </div>
-                <a href="#" className="flex items-center gap-2 text-blue-600 dark:text-blue-400 font-medium hover:underline">
-                  View Case Study <ExternalLink size={16} />
-                </a>
+              
               </div>
               <div className="md:w-1/2">
-                <div className="relative rounded-xl overflow-hidden shadow-lg">
-                  <img 
-                    src="/api/placeholder/600/320" 
-                    alt="AI Task Manager" 
-                    className="w-full h-full object-cover"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/20 to-purple-500/20 hover:opacity-0 transition-opacity duration-300"></div>
-                </div>
+         
               </div>
             </div>
           </div>
