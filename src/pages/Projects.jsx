@@ -64,11 +64,7 @@ highlights: [
           >
             <div className="lg:w-1/2">
               <div className="overflow-hidden rounded-xl shadow-lg">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-auto transform hover:scale-105 transition-transform duration-500"
-                />
+             
               </div>
             </div>
             
