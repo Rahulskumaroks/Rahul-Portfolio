@@ -38,12 +38,14 @@ const Projects = () => {
       technologies: ['React', 'Node Js', 'Redux', 'Express', 'PostgreSQL'],
       link: 'https://meuzz.com',
       image: 'https://via.placeholder.com/600x340',
-      highlights: [
-        'Up to 99.75% accuracy in CKD detection',
-        'KNN imputation to handle missing patient data',
-        'Multiple model comparison (SVM, KNN, naive Bayes, neural networks)',
-        'Potential for early CKD detection in clinical settings'
-      ]
+highlights: [
+  'Upload memes, photos & videos—no algorithm interference, just community votes (up‑vote/down‑vote)',
+  'Explore trending content & templates in a humor‑centric feed',
+  'Build your reputation with up‑votes and community recognition (“rep” system)',
+  'Integrated meme ranking—see what’s actually funny, not what’s “trendy”',
+  'Expand into satire with the new news.meuzz.com platform'
+]
+
     }
   ];
 
@@ -112,15 +114,7 @@ const Projects = () => {
                   </div>
                   
                   <div className="flex gap-4">
-                    <a 
-                      href={project?.github} 
-                      target="_blank" 
-                      rel="noopener noreferrer" 
-                      className="flex items-center text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
-                    >
-                      <Github size={18} className="mr-1" />
-                      <span>Code</span>
-                    </a>
+                
                     <a 
                       href={project.link} 
                       target="_blank" 
