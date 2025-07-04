@@ -90,7 +90,7 @@ const Navbar = () => {
           
           <div className="flex items-center space-x-4">
             <a 
-              href="https://github.com" 
+              href="https://github.com/Rahulskumaroks" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-300 transition-colors duration-300"
