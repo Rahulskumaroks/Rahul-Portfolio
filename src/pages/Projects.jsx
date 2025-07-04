@@ -8,7 +8,7 @@ const Projects = () => {
       title: 'Code-Deck',
       description: 'A versatile code editor built with ReactJS and CodeMirror, providing a seamless coding experience with multi-language support (C++, Python, Java, JavaScript) and multi-theme support.',
       technologies: ['ReactJS', 'CodeMirror', 'Judge0 CE API', 'Rapid API', 'Axios', 'React Router'],
-      link: '#',
+      link: 'https://code-deck.vercel.app/',
       github: '#',
       image: 'https://via.placeholder.com/600x340',
       highlights: [
@@ -22,7 +22,7 @@ const Projects = () => {
       title: 'Thread-App-Clone',
       description: 'A high-performance social media application using React Native, achieving a 20% increase in user retention through a seamless cross-platform experience.',
       technologies: ['React Native', 'Node.js', 'Express.js', 'MongoDB', 'Google Gemini API'],
-      link: '#',
+      link: 'https://drive.google.com/file/d/1mulR62ldkgmW8qjdt17vBoIU3RgdLqsQ/view?pli=1',
       github: '#',
       image: 'https://via.placeholder.com/600x340',
       highlights: [
@@ -33,11 +33,10 @@ const Projects = () => {
       ]
     },
     {
-      title: 'CKD Prediction Using AI',
-      description: 'A machine learning model combining logistic regression and random forest to predict chronic kidney disease with high accuracy.',
-      technologies: ['Python', 'Machine Learning', 'SVM', 'KNN', 'Neural Networks'],
-      link: '#',
-      github: '#',
+      title: 'Meuzz',
+      description: 'Meuzz is where your humor gets the recognition it deserves. Upload your best content, vote on what's actually funny, and build your rep in a community that gets it. No cap, no algorithms – just pure vibes.',
+      technologies: ['React', 'Node Js', 'Redux', 'Express', 'PostgreSQL'],
+      link: 'https://meuzz.com',
       image: 'https://via.placeholder.com/600x340',
       highlights: [
         'Up to 99.75% accuracy in CKD detection',
@@ -114,7 +113,7 @@ const Projects = () => {
                   
                   <div className="flex gap-4">
                     <a 
-                      href={project.github} 
+                      href={project?.github} 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       className="flex items-center text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
