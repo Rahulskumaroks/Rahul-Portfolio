@@ -37,6 +37,7 @@ const Projects = () => {
       description: 'Meuzz is where your humor gets the recognition it deserves. Upload your best content, vote on what's actually funny, and build your rep in a community that gets it. No cap, no algorithms – just pure vibes.',
       technologies: ['React', 'Node Js', 'Redux', 'Express', 'PostgreSQL'],
       link: 'https://meuzz.com',
+      github: '',
       image: 'https://via.placeholder.com/600x340',
       highlights: [
         'Up to 99.75% accuracy in CKD detection',
